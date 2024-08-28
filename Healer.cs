@@ -15,3 +15,18 @@ class Healer : Hero {
     return $"{Name} casts {Spell}.";
   }
 }
+
+/*
+class Healer extends Hero {
+  spell;
+
+  constructor(name, level, spell) {
+    super(name, level);
+    this.spell = spell;
+  }
+
+  heal() {
+    return `${this.name} casts ${this.spell}.`;
+  }
+}
+*/
